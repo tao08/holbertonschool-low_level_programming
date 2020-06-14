@@ -1,22 +1,24 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 (Success)
+ *
+ *Return: 0
  */
 int main(void)
 {
-	int i = 0;
-	for (i = 48; i <= 57; i++)
+	int num = '0';
+
+	while (num <= '9')
 	{
-		putchar(i);
-		if (i < 57)
+		putchar(num);
+		if (num != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
+		num++;
 	}
 	putchar('\n');
 	return (0);
 }
-
