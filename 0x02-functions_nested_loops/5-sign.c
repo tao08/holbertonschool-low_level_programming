@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
-*print_sing - check the code for Holberton School studentes.
-*@n: integrar to test.
-*Return: 0..
-**/
+ * print_sign - check the code for Holberton School students.
+ * @n: integer to test.
+ * Return: 0..
+ */
 
 int print_sign(int n)
 {
