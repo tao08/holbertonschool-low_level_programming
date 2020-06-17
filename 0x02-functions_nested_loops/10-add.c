@@ -1,11 +1,10 @@
 #include "holberton.h"
-
 /**
  *add - adds to numbers
  *
  *@t: first integer
  *@p: second integer
- *Return_ the addition of a and b
+ *Return: the addition of t and p
  */
 int add(int t, int p)
 {
