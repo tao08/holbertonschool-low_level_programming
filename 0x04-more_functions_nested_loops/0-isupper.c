@@ -4,7 +4,7 @@
  *@c: variable  for  supper
  * Return: Always 0.
  */
-int _insupper(int c)
+int _isupper(int c)
 {
 	int min = 65;
 	int w = 90;
