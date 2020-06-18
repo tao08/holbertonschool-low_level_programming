@@ -4,13 +4,14 @@
 /**
  *_isdigit -  found the digit  of 0 until 9
  *@c:  variable on digit 1.
+ * Return: Always 0.
  */
 int _isdigit(int c)
 {
 	int x = 48;
 	int z = 57;
 
-	if ((c >= x) && (c <=z))
+	if ((c >= x) && (c <= z))
 	{
 		return (1);
 	}
