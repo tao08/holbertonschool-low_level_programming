@@ -18,6 +18,6 @@ int main(void)
 		putchar(i);
 	}
 
-	printf("don’t delete it! \\o/\n");
+	printf("(don’t delete it!) \\o/\n");
 	return (0);
 }
