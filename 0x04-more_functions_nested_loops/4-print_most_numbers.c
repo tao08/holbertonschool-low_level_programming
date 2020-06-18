@@ -9,7 +9,7 @@ void print_most_numbers(void)
 {
 	int g;
 
-	fot (g = '0'; g <= '9'; g++)
+	fot(g = '0'; g <= '9'; g++)
 	{
 		if (g != '2' && g != '4')
 
