@@ -10,7 +10,7 @@ int main(void)
 {
 	int g;
 
-	for (g = 1; a < 101; g++)
+	for (g = 1; g < 101; g++)
 	{
 		if (g % 3 == 0)
 			printf("Fizz");
