@@ -1,25 +1,31 @@
-#tdio.h>
+#include <stdio.h>
 /**
  * main - Combinations 4
  * Return: Always 0 (Success)
  **/
 int main(void)
 {
-	int n;
+	int g;
 	int u;
-	int m;
+	int s;
 
-	for (n = '0'; n <= '9'; n++)
+	for (g = '0'; g <= '9'; g++)
 	{
-		for (u = n + 1; u <= '9'; u++)
+		for (u = g + 1; u <= '9'; u++)
 		{
-			for (m = u + 1; m <= '9'; m++)
+			for (s = u + 1; s <= '9'; s++)
 			{
-				putchar(n);
+				putchar(g);
 				putchar(u);
-				putchar(m);
-				if (n != '7' || u != '8' || m != '9')
+				putchar(s);
+				if (g != '7' || u != '8' || s != '9')
 				{
 					putchar(',');
-					putchar(' ');    
+					putchar(' ');
+				}
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
