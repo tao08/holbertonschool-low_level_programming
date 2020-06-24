@@ -1,11 +1,9 @@
 #include "holberton.h"
 
- /**
-  * print_rev - prints a string in reverse
-  * @s: this is a punter
-  * Return: Always 0.
-  *
-  **/
+/**
+* print_rev - prints a string backwards
+* @s: string
+**/
 void print_rev(char *s)
 {
 	int g = 0;
@@ -13,7 +11,7 @@ void print_rev(char *s)
 
 	while (s[g] != '\0')
 	{
-		t++;
+		g++;
 	}
 	for (t = g - 1; t >= 0; t--)
 	{
