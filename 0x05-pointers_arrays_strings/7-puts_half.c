@@ -1,13 +1,11 @@
 #include "holberton.h"
 
 /**
- *
- * puts_half - prints a string in reverse
- *
- * @str: string in reverse
- *
- * Return: void
+ * puts_half - prints a string backwards
+ * @str: string
  */
+
+
 
 void puts_half(char *str)
 {
