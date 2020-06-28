@@ -1,23 +1,37 @@
 #include "holberton.h"
 /**
  * cap_string - capitalizes al the world
- * @s: pointer..
+ * @g: pointer..
  * Return: string pointer
  *
  */
-char *cap_string(char *s)
+char *cap_string(char *g)
 {
-	int g, w;
+	int x;
 
-	char exept[13] = {' ', '\t', '\n', ',', ';', '.', '!',
-			  '?', '"', '(', ')', '{', '}'};
+	x = 0;
 
-	if (s[0] >= 'a' && s[0] <= 'z')
-		s[0] = s[0] - 32;
-	for (g = 1; s[g] != '\0'; g++)
-		for (w = 0; exept[w] != '\0'; w++)
-			if (s[g + 1] == exept[w] && s[g + 1] >= 'a' &&  s[g + 1]
-			    <= 'z')
-				s[g + 1] = s[g + 1] - 32;
-	return (s);
+	while (g[x] != '\0')
+	{
+		if (g[0] >= 97 && g[0] <= 122)
+		{
+			g[0] -= 32;
+		}
+		if (g[x] >= 97 && g[x] <= 122 && (g[x - 1] == ',' || g[x - 1] ==
+						  ';' || g[x - 1] == '.' ||
+						  g[x - 1] == '!' || g[x - 1]
+						  == '?' || g[x - 1] == '"' ||
+						  g[x - 1] == '\n' || g[x - 1]
+						  == '(' || g[x - 1] == ')'
+						  || g[x - 1] == '{' || g[x - 1]
+						  == '}' || g[x - 1] == ' ' ||
+						  g[x - 1] == 32 || g[x - 1]
+						  == '\t'))
+		{
+			g[x] -= 32;
+		}
+		x++;
+
+	}
+	return (g);
 }
