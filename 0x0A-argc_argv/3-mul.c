@@ -2,16 +2,16 @@
 #include <stdio.h>
 /**
  * main - this is a function
- * @agc: es una variable
+ * @argc: es una variable
  * @argv: es una variable
- * Return: 1
+ *
  * Return: 0
  */
 int main(int argc, char *argv[])
 {
 	if (argc != 3)
 	{
-		printf("erro\n");
+		printf("Error\n");
 		return (1);
 	}
 	else
