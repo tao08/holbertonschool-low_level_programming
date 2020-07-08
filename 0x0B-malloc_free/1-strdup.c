@@ -1,6 +1,8 @@
 #include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
- * strdup - this is a funtion
+ * _strdup - this is a funtion
  * @str: this is a variable
  * Return: 0
  *
