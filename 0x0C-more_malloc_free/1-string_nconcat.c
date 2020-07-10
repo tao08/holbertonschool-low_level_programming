@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *
- *
- *
+ * string_nconcat - this is a funtion
+ * @s1: this is a punteros
+ * @s2: this is a punter
+ * @n: this is a variable
+ * Return: 0
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
