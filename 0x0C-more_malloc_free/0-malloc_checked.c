@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <limits.h>
 /**
- * void - this is a  malloc funtion
- * *malloc_checked - this is a funtion de prototype
+ * malloc_checked - Write a function
  * @b: this is a variable int
  * Return: 98
  *
