@@ -20,7 +20,7 @@ int *array_range(int min, int max)
 		return ('\0');
 	}
 	w = max - min + 1;
-	ptr = malloc(j * sizeof(int));
+	ptr = malloc(w * sizeof(int));
 	if (ptr == '\0')
 		return ('\0');
 	for (g = 0; g < w; g++, min++)
