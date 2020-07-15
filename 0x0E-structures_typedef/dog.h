@@ -1,10 +1,10 @@
 #ifndef DOGI_H
 #define DOGI_H
 /**
- *
- *
- *
- *
+ * struct dog - funtion firts
+ * @name: thhis is a variable
+ * @age: this is a variable
+ * @owner: this is a variable
  *
  **/
 struct dog
