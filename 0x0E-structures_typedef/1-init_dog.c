@@ -3,8 +3,9 @@
  * init_dog - funtion iniciali
  * @d: puntero struct
  * @name: puntero tipe char
+ * @age: this is a variable
  * @owner: variabre propietario
- * @ege: variable
+ *
  **/
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
