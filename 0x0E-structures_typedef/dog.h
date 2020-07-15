@@ -1,5 +1,7 @@
 #ifndef DOGI_H
 #define DOGI_H
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * struct dog - funtion firts
  * @name: thhis is a variable
