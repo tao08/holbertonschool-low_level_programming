@@ -5,6 +5,7 @@
  * @array: this is a punter
  * @size: this is a punter
  * @cmp: this is a puntero
+ * Return: -1
  **/
 int int_index(int *array, int size, int (*cmp)(int))
 {
