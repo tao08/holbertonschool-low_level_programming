@@ -1,7 +1,9 @@
 #include"variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
 /**
  * prin_char - print char.
- * @valist: char to print.
+ * @list: char to print.
  */
 void prin_char(va_list list)
 {
@@ -9,7 +11,7 @@ void prin_char(va_list list)
 }
 /**
  * prin_integer - print integer.
- * @valist: int to print.
+ * @list: int to print.
  */
 void prin_integer(va_list list)
 {
@@ -17,7 +19,7 @@ void prin_integer(va_list list)
 }
 /**
  * prin_float - print float.
- * @valist: float to print.
+ * @list: float to print.
  */
 void prin_float(va_list list)
 {
@@ -25,7 +27,7 @@ void prin_float(va_list list)
 }
 /**
  * prin_string - print string.
- * @valist: string to print.
+ * @list: string to print.
  */
 void prin_string(va_list list)
 {
@@ -71,5 +73,5 @@ while (format != NULL && format[i] != '\0')
 	i++;
 }
 printf("\n");
-va_end(valist);
+va_end(list);
 }
