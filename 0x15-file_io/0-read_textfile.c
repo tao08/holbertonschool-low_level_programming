@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- *
- *read_textfile - read a text
+ * read_textfile - read a text and define de variable
  * @filename: filename
  * @letters: letters
- *Return: ssize
+ * Return: ssize
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
