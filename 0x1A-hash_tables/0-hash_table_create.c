@@ -32,3 +32,4 @@ hash_table_t *hash_table_create(unsigned long int size)
   h_t->array = h_a;
   return (h_t);
 }
+
